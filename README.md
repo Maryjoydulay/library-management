@@ -144,38 +144,4 @@ Error responses follow this format:
 }
 ```
 
-## Dependencies
-
-- **express**: Web framework
-- **mongoose**: MongoDB object modeling
-- **cors**: Cross-origin resource sharing
-- **morgan**: HTTP request logger
-- **dotenv**: Environment variable loader
-- **body-parser**: Request body parsing
-
-## Project Structure
-
-```
-├── app.js                 # Main application file
-├── config/
-│   └── db.js             # Database connection
-├── controllers/
-│   ├── productController.js
-│   ├── supplierController.js
-│   ├── orderController.js
-│   └── userController.js
-├── models/
-│   ├── productModel.js
-│   ├── supplierModel.js
-│   ├── orderModel.js
-│   └── userModel.js
-├── routes/
-│   ├── productRoutes.js
-│   ├── supplierRoutes.js
-│   ├── orderRoutes.js
-│   └── userRoutes.js
-├── test-api.js           # API testing script
-└── API_DOCUMENTATION.md  # Detailed API documentation
-```
-
 
